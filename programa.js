@@ -164,26 +164,60 @@
 
 //********************************************
 //OBJETOS
-const pessoa = {
-    nome: "Thiago",
-    sobrenome: "R. da Costa",
-    passatempos: ["musicas", "filmes", "esportes"],
-    idade: 18,
-    endereco: {
-        rua: "2 avenida",
-        cidade: "Girassol",
-        estado: "GO"
-    }
-}
+// const pessoa = {
+//     nome: "Thiago",
+//     sobrenome: "R. da Costa",
+//     passatempos: ["musicas", "filmes", "esportes"],
+//     idade: 18,
+//     endereco: {
+//         rua: "2 avenida",
+//         cidade: "Girassol",
+//         estado: "GO"
+//     }
+// }
 
-// ACESSANDO UMA PROPRIEDADE DO OBJETO.
-console.log(pessoa.nome);
-// ACESSANDO UM ELEMENTO DE UMA PROPRIEDADE VETOR
-console.log(pessoa.passatempos[0]);
+// // ACESSANDO UMA PROPRIEDADE DO OBJETO.
+// console.log(pessoa.nome);
+// // ACESSANDO UM ELEMENTO DE UMA PROPRIEDADE VETOR
+// console.log(pessoa.passatempos[0]);
 
-// ACESSAR UMA PROPRIEDADE DE UMA PROPRIEDADE
-console.log(pessoa.endereco.rua);
+// // ACESSAR UMA PROPRIEDADE DE UMA PROPRIEDADE
+// console.log(pessoa.endereco.rua);
 
-// DEFINIR UMA NOVA PROPRIEDADE
-pessoa.email = "thiago@hotmail.com";
-console.log(pessoa);
+// // DEFINIR UMA NOVA PROPRIEDADE
+// pessoa.email = "thiago@hotmail.com";
+// console.log(pessoa);
+
+
+// // UM VETOR DE OBJETOS
+// const tarefas = [
+//     {
+//         id: 1,
+//         texto: "Tirar o lixo",
+//         completo: false
+//     },
+//     {
+//         id: 2,
+//         texto: "varrer a casa",
+//         completo: true
+//     },
+//     {
+//         id: 3,
+//         texto: "passar pano",
+//         completo: true
+//     }
+// ];
+
+// // ACESSAR UMA PROPRIEDADE DE UM ELEMENTO ESPECIFICO
+// console.log(tarefas[0].texto);
+
+// // FORMATAR UM OJETO COM JSON.STRING
+// JSON.stringify(tarefas);
+// // IMPRIMIR OS OBJETOS
+// console.log(JSON.stringify(tarefas));
+// console.log(JSON.stringify(pessoa));
+
+
+//************************************************ */
+
+//ESCTURURAS CONDICIONAIS
