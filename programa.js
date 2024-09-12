@@ -119,3 +119,48 @@
 
 //*********************************
 //VETOR
+// const vetor = ['A', 10, 'OI', 1.5, true];
+// const numeros = [1,2,3,4,5];
+// const frutas = ['maçãs', 'laranjas', 'peras', 'uvas'];
+
+// // OBTER UM VALOR
+// console.log(frutas[0]);
+// console.log(frutas[1]);
+
+// // ADICIONAR UM VALOR NO VETOR
+// frutas[4] = "melancia";
+// console.log(frutas);
+
+// //ALTERAR UM ELEMENTO DO VETOR
+// // ACESSANDO UM ELEMENTO DO VETOR
+// frutas[1] = "limao";
+// console.log(frutas);
+
+// // SÃO METÓDOS DE VETORES
+// //ADICIONAR UM ELEMENTO NO FINAL DO VETOR
+// frutas.push("morangos");
+// console.log(frutas);
+
+// //ADICIONAR UM ELEMENTO NO INICIO DO VETOR
+// frutas.unshift("mangas");
+// console.log(frutas);
+
+// //REMOVER UM ELEMENTO NO FIM DO VETOR
+// const fruta_removida = frutas.pop();
+// console.log(frutas);
+// console.log(fruta_removida);
+
+// //REMOVER UM ELEMENTO NO INICIO DO VETOR
+// const fruta_removida1 = frutas.shift();
+// console.log(frutas);
+// console.log(fruta_removida1);
+
+// //RETORNAR O INDECE DO LIMAO NO VETOR FRUTAS
+// console.log(frutas.indexOf("limao"));
+
+// //SABER SE E UM VETOR
+// console.log(Array.isArray(frutas));
+// console.log(Array.isArray(10));
+
+//********************************************
+//OBJETOS
