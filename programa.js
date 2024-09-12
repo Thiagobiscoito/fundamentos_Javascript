@@ -97,15 +97,25 @@
 //*******************************************
 //STRINGS
 
-const nome = "Thiago";
-const sobrenome = "Costa";
-const idade = 27;
+// const nome = "Thiago";
+// const sobrenome = "Costa";
+// const idade = 27;
 
-// CONCATENAÇÃO
-const apresentacao = "Meu nome é " + nome + " " + sobrenome + " e eu tenho " + idade + " anos de idade";
-console.log(apresentacao);
+// // CONCATENAÇÃO
+// const apresentacao = "Meu nome é " + nome + " " + sobrenome + " e eu tenho " + idade + " anos de idade";
+// console.log(apresentacao);
 
-//TEMPLATE DE SRING
-const apresentacao1 = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade.`;
-console.log(apresentacao1);
+// //TEMPLATE DE SRING
+// const apresentacao1 = `Meu nome é ${nome} ${sobrenome} e eu tenho ${idade} anos de idade.`;
+// console.log(apresentacao1);
 
+// //PROPRIEDADES E METODOS DE STRINGS
+// const s = "Olá Mundo";
+// console.log(s.length); //CONTA O NUMERO DE LETRAS DA VARIAVEL S, AQUI E UMA AÇÃO
+// console.log(s.toUpperCase()); //TRANSFORMA AS LETRAS EM MAIUSCULAS PQ E UM METODO
+// console.log(s.toLowerCase()); //TRANSFORMA AS LETRAS EM MENUSCULAS
+// console.log(s.substring(1, 8)) // VC PODE PEGAR UMA FATIA DA STRING E O ULTIMO NAO E INCLUSO.
+// console.log(s.split("u")); // PODEMOS SEPARAR A STRING E RECEBER O QUE ESTA ANTES DO U E DEPOIS, E RECEBEMOS COMO UM VETOR.
+
+//*********************************
+//VETOR
