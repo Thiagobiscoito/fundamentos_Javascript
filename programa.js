@@ -251,7 +251,7 @@
 
 
 // ESTRUTURA CONDICIONAL SWITCH
-const cor = "azul";
+// const cor = "azul";
 
 // switch (cor) {
 //     case "vermelho": console.log("a cor é vermelho");
@@ -275,3 +275,8 @@ const cor = "azul";
 // let numero = cor == "vermelho" ? 10 : 20;
 
 // console.log(numero);
+
+
+//*******************************************
+
+//ESTRUTURAS DE REPETIÇÃO
