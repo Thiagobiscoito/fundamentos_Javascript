@@ -220,4 +220,58 @@
 
 //************************************************ */
 
-//ESCTURURAS CONDICIONAIS
+//ESCTURURAS CONDICIONAIS IF E ELSE
+// const x = 10;
+// const y = 10;
+
+//IF E ELSE 
+// if (x == y) {
+//     console.log("x é igual a y");
+// }else {
+//     console.log("x não é igual a y");
+// }
+
+//ELSE IF 
+// if (x > y) {
+//     console.log("x é maior que y");
+// } else if (x < y) {
+//     console.log("x é menor que y");
+// } else if ( x == y) {
+//     console.log("x é igual a y");
+// }
+
+//CODIGO MELHORADO
+// if (x > y) {
+//     console.log("x é maior que y");
+// } else if (x < y) {
+//     console.log("x é menor que y");
+// } else {
+//     console.log("x é igual a y");
+// }
+
+
+// ESTRUTURA CONDICIONAL SWITCH
+const cor = "azul";
+
+// switch (cor) {
+//     case "vermelho": console.log("a cor é vermelho");
+//     break;
+//     case "verde": console.log("a cor é verde");
+//     break;
+//     case "azul": console.log("a cor é azul");
+//     break;
+//     default: console.log("a cor não é vermelho, nem verde, nem azul");
+// }
+
+
+// let numero;
+// if (cor=="azul") {
+//     numero = 10;
+// }else {
+//     numero = 20;
+// }
+
+// OPERADOR TERNÁRIO. ESSA EXPRESSÃO E IGUAL A DE CIMA.
+// let numero = cor == "vermelho" ? 10 : 20;
+
+// console.log(numero);
