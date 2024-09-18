@@ -280,3 +280,45 @@
 //*******************************************
 
 //ESTRUTURAS DE REPETIÇÃO
+//WHILE é enquanto...
+// let i = 0;
+// while (i < 5) {
+//     console.log("uhuuu");
+//     // i = contador + 1;
+//     // i +=1;
+//     i ++;
+// }
+
+//FOR SIGNIFICA PARA CADA UMA DELAS...
+//DENTRO DOS PARENTESES  1º INICIALIZAÇÃO, 2º CONDIÇÃO, 3º ATUALIZAÇÃO.
+// for (let i = 0; i < 5; i++){
+//     console.log(`Número da repetição for: ${i}`)
+// }
+
+//TESTE VETOR.
+// const tarefas = [
+//     {
+//         id: 1,
+//         texto: "tirar o lixo",
+//         completo: false,
+//     },
+//     {
+//         id: 2,
+//         texto: "Jantar com esposa",
+//         completo: false,
+//     },
+//     {
+//         id: 3,
+//         texto: "Reunião com chefe",
+//         completo: true,
+//     }
+// ];
+
+// for ( i = 0; i < tarefas.length; i++) {
+//     console.log(`Tarefas ${i}: ${tarefas[i].texto}`)
+// }
+
+//FOR SIMPLIFICADO QUE PERCORRE TODO VETOR
+// for (let tarefa of tarefas) {
+//     console.log(tarefa)
+// }
