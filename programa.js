@@ -394,3 +394,17 @@
 
 // const resultado = somar(10, 15);
 // console.log(resultado);
+
+//**************************************************************************************
+//FUNÇOES DE ORDEM MAIOR OU METODOS DE VETORES.
+//.forEach() ==> ELE PERCORRER OS ITENS DO VETOR E FAZ ALGUMA OPERAÇÃO ESTIPULADA PELO DESENVOLVEDOR.
+//.map() ==> ELE VAI PERCORRER OS ITENS DO VETOR E TRANSFORMALOS DA MANEIRA QUE DEFINIRMOS.
+//.filter() ==> ELE PERCORRER OS ITENS DO VETOR E VAI FILTRALOS.
+//.reduce() ==> ELE VAI PERCORRER OS ITENS DO VETOR E VAI FAZER UMA OPERAÇÃO DEFINIDA E RETORNAR APENAS UM VALOR.
+
+// //.forEach()
+// const numeros = [1, 2, 3, 4, 5]; //VETOR DE NUMEROS
+// numeros.forEach(function (numero) {
+//     console.log(numero);
+// }) // ELE PERCORREU TODO O VETOR DE NUMEROS A CIMA E IMPRIMIU CADA UM DELES.
+
