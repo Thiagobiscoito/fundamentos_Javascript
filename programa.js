@@ -325,3 +325,72 @@
 
 //******************************************
 //FUNÇOES
+// function dizer_ola(nome) {
+//     console.log("olá " + nome);
+// }
+
+// dizer_ola("THIAGO"); //ARGUMENTO P FUNÇÃO.
+// dizer_ola("MARY"); //ARGUMENTO P FUNÇÃO.
+// dizer_ola("IRENE"); //ARGUMENTO P FUNÇÃO.
+
+//FUNÇÃO SEM ARGUMENTO, DEFININDO UM VALOR CASO NÃO HAJA ARGUMENTO.
+// function dizer_ola(nome="Fulano") {
+//     console.log("olá " + nome);
+// }
+
+// dizer_ola(); //SEM ARGUMENTO P FUNÇÃO.
+
+// //FUNÇÃO COM MAIS DE UM ARGUMENTO
+// function se_apresentar(nome, idade) {
+//     console.log("Meu nome é: " + nome);
+//     console.log("Eu tenho " +idade + " anos de idade");
+// }
+
+// se_apresentar("MARY", 36);
+// se_apresentar("THIAGO", 36);
+
+
+// //FUNÇOES QUE RETORNAM VALORES
+// function criar_nome_completo(nome, sobrenome) {
+//     return `${nome} ${sobrenome}`;
+// }
+
+// const nomeCompleto = criar_nome_completo("THIAGO", "REDUZINO");
+// console.log(nomeCompleto);
+
+//FUNÇÃO COM CONDIÇÃO
+// function criar_nome_completo(nome, sobrenome, sexo) {
+//     if(sexo == "M") {
+//         return `Sr. ${nome} ${sobrenome}`;
+//     }else if (sexo == "F") {
+//         return `Sra. ${nome} ${sobrenome}`;
+//     }else {
+//         return `${nome} ${sobrenome}`;
+//     }
+// };
+
+// const nomeCompleto = criar_nome_completo("THIAGO", "REDUZINO", "M");
+// const nomeCompleto2 = criar_nome_completo("MARY", "BIDIAN", "F");
+// const nomeCompleto3 = criar_nome_completo("ROSA", "BIDIAN",);
+
+// console.log(nomeCompleto);
+// console.log(nomeCompleto2);
+// console.log(nomeCompleto3);
+
+//ARROW FUNCTION
+const dizer_oi = () => console.log("Essa e uma função Arrow Function");
+dizer_oi();
+
+const tudoBem = () => {
+    console.log("Olá");
+    console.log("Tudo bem?");
+}
+
+tudoBem();
+
+const somar = (x, y) => {
+    return x + y;
+}
+
+const resultado = somar(10, 15);
+console.log(resultado);
