@@ -378,19 +378,19 @@
 // console.log(nomeCompleto3);
 
 //ARROW FUNCTION
-const dizer_oi = () => console.log("Essa e uma função Arrow Function");
-dizer_oi();
+// const dizer_oi = () => console.log("Essa e uma função Arrow Function");
+// dizer_oi();
 
-const tudoBem = () => {
-    console.log("Olá");
-    console.log("Tudo bem?");
-}
+// const tudoBem = () => {
+//     console.log("Olá");
+//     console.log("Tudo bem?");
+// }
 
-tudoBem();
+// tudoBem();
 
-const somar = (x, y) => {
-    return x + y;
-}
+// const somar = (x, y) => {
+//     return x + y;
+// }
 
-const resultado = somar(10, 15);
-console.log(resultado);
+// const resultado = somar(10, 15);
+// console.log(resultado);
