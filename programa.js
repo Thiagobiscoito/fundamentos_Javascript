@@ -322,3 +322,6 @@
 // for (let tarefa of tarefas) {
 //     console.log(tarefa)
 // }
+
+//******************************************
+//FUNÇOES
