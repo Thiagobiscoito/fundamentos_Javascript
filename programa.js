@@ -408,3 +408,31 @@
 //     console.log(numero);
 // }) // ELE PERCORREU TODO O VETOR DE NUMEROS A CIMA E IMPRIMIU CADA UM DELES.
 
+// const letras = [ "A", "B", "C", "D", "E"];
+// letras.forEach(function (letra, indice) {
+//     console.log(`${indice}: ${letra}`)
+// });
+
+const tarefas = [
+    {
+        id: 1,
+        texto: "Estudar",
+        completo: false,
+    },
+    {
+        id: 2,
+        texto: "Trabalhar",
+        completo: false,
+    },
+    {
+        id: 3,
+        texto: "Limpar a casa",
+        completo: true,
+    }
+];
+
+// OS ARGUMENTOS PASSADOS NA FUNCAÇÃO: 1-A TAREFA, 2-INDICE, 3-VETOR DA TAREFA
+tarefas.forEach( function ( tarefa, indice, todasTarefas){
+    console.log(`${indice +1}: ${tarefa.texto}`);
+    console.log(todasTarefas);
+});
