@@ -413,26 +413,54 @@
 //     console.log(`${indice}: ${letra}`)
 // });
 
-const tarefas = [
-    {
-        id: 1,
-        texto: "Estudar",
-        completo: false,
-    },
-    {
-        id: 2,
-        texto: "Trabalhar",
-        completo: false,
-    },
-    {
-        id: 3,
-        texto: "Limpar a casa",
-        completo: true,
-    }
-];
+// const tarefas = [
+//     {
+//         id: 1,
+//         texto: "Estudar",
+//         completo: false,
+//     },
+//     {
+//         id: 2,
+//         texto: "Trabalhar",
+//         completo: false,
+//     },
+//     {
+//         id: 3,
+//         texto: "Limpar a casa",
+//         completo: true,
+//     }
+// ];
 
 // OS ARGUMENTOS PASSADOS NA FUNCAÇÃO: 1-A TAREFA, 2-INDICE, 3-VETOR DA TAREFA
-tarefas.forEach( function ( tarefa, indice, todasTarefas){
-    console.log(`${indice +1}: ${tarefa.texto}`);
-    console.log(todasTarefas);
-});
+// tarefas.forEach( function ( tarefa, indice, todasTarefas){
+//     console.log(`${indice +1}: ${tarefa.texto}`);
+//     console.log(todasTarefas);
+// });
+
+
+//O MAP PERCORRE O VETOR E NOS TRAS UM NOVO VETOR ALTERADO DA FORMA QUE MODIFICAMOS.
+//METODO MAP
+// const vetorDeTextosDasTarefas = tarefas.map( function (tarefa) {
+//     return `ID: ${tarefa.id}: ${tarefa.texto}`
+// });
+
+// console.log(vetorDeTextosDasTarefas);
+
+//METODO FILTER
+//METODO FILTER O RESULTADO DA EXPRESSAO RETORNA VERDADEIRO, ELE ESTARA INCLUSO NA LISTA FILTRADA CASO CONTRARIO ELE NAO ENTRA NA LISTA.
+// const tarefa1 = tarefas.filter( function (tarefa) {
+//     return tarefa.id === 2;
+// })
+
+// console.log(tarefa1);
+
+//METODO REDUCE
+//ELE VAI MANIPULAR UM VETOR E TRAZER UM UNICO RESULTADO QUE NESSE CASO E 10 ELE SOMA O VALOR INIVIAL MAIS O VALOR DO ELEMENTO ATUAL.
+// const vetor = [1, 2, 3, 4];
+// const valorInicial = 0;
+
+// const soma = vetor.reduce( function (acumulador, elementoAtual){
+//     return acumulador + elementoAtual;
+// }, valorInicial)
+
+// console.log(soma);
